@@ -3,18 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site Simples</title>
+    <title>Minha empresa </title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Encontre o Imoveis Ideal Para Você</h1>
-        <h1 id="description"> NAKANE IMOBILIÁRIA,Um lar que oferece o equilíbrio perfeito entre sofisticação e aconchego. Venha conhecer! <h1>
-        <button onclick=" NAKANE()"></button>
-    </div>
+    <!-- Header -->
+    <header>
+        <div class="logo">Minha empresa </div>
+        <nav>
+            <div class="menu-toggle">☰</div>
+            <ul class="nav-links">
+                <li><a href="#MElhor atendimento ">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="# nossos projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Bem-vindo ao Minha empresa </h1>
+        <p>  Imobiliaria NAKAME</p>
+        <a href="#contato" class="cta-button">Entre em Contato</a>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre">
+        <h2> Sua Casa,Nosso Compromisso  </h2>
+        <p> Imobiliaria Nakame , acreditamos que encontrar o lar perfeito vai além de uma simples transação – é realizar sonhos e construir histórias. Com anos de experiência no mercado imobiliário, oferecemos soluções personalizadas para quem busca comprar, vender, alugar ou investir em imóveis.</p>
+    </section>
+
+    <!-- Projetos Section -->
+    <section id="projetos" class="projetos">
+        <h2> Nosso seviço </h2>
+        <div class="projetos-grid">
+            <div class="projeto-card">
+                <img src="images.jpeg"Projeto 1">
+                <h3> O melhor para sua família</h3>
+                <p> Uma empresa com anos no mercado.</p>
+            </div>
+            <div class="projeto-card">
+                <img src="investimento-em-fundo-imobiliário-1.webp"Projeto 2">
+                <h3>Projeto 2</h3>
+                <p> Melhores avaliações .</p>
+            </div>
+            <div class="projeto-card">
+                <img src="images (1).jpeg" alt="Projeto 3">
+                <h3>Projeto 3</h3>
+                <p>Design Escializados Para Você.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <h2>Entre em Contato</h2>
+        <form id="contato-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Tenha o Melhor Atendimento e Proutos de Qualidade .</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
-<div class="center">
-   <img src="" alt="">
-</div>
+</html>
