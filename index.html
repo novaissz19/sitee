@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha empresa </title>
+    <title>Imobiliária Nakame</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header -->
     <header>
-        <div class="logo">Minha empresa </div>
+        <div class="logo">Imobiliária Nakame</div>
         <nav>
-            <div class="menu-toggle">☰</div>
+            <button class="menu-toggle" aria-label="Abrir menu">☰</button>
             <ul class="nav-links">
-                <li><a href="#MElhor atendimento ">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="# nossos projetos">Projetos</a></li>
+                <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -23,35 +23,35 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <h1>Bem-vindo ao Minha empresa </h1>
-        <p>  Imobiliaria NAKAME</p>
+        <h1>Bem-vindo à Imobiliária Nakame</h1>
+        <p>Sua nova casa está aqui!</p>
         <a href="#contato" class="cta-button">Entre em Contato</a>
     </section>
 
     <!-- Sobre Section -->
     <section id="sobre" class="sobre">
-        <h2> Sua Casa,Nosso Compromisso  </h2>
-        <p> Imobiliaria Nakame , acreditamos que encontrar o lar perfeito vai além de uma simples transação – é realizar sonhos e construir histórias. Com anos de experiência no mercado imobiliário, oferecemos soluções personalizadas para quem busca comprar, vender, alugar ou investir em imóveis.</p>
+        <h2>Sua Casa, Nosso Compromisso</h2>
+        <p>Na Imobiliária Nakame, acreditamos que encontrar o lar perfeito vai além de uma simples transação – é realizar sonhos e construir histórias. Com anos de experiência no mercado imobiliário, oferecemos soluções personalizadas para quem busca comprar, vender, alugar ou investir em imóveis.</p>
     </section>
 
     <!-- Projetos Section -->
     <section id="projetos" class="projetos">
-        <h2> Nosso seviço </h2>
+        <h2>Nossos Serviços</h2>
         <div class="projetos-grid">
             <div class="projeto-card">
-                <img src="images.jpeg"Projeto 1">
-                <h3> O melhor para sua família</h3>
-                <p> Uma empresa com anos no mercado.</p>
+                <img src="images.jpeg" alt="Projeto 1 - Casa para sua família">
+                <h3>O Melhor para Sua Família</h3>
+                <p>Uma empresa com anos de experiência no mercado.</p>
             </div>
             <div class="projeto-card">
-                <img src="investimento-em-fundo-imobiliário-1.webp"Projeto 2">
-                <h3>Projeto 2</h3>
-                <p> Melhores avaliações .</p>
+                <img src="investimento-em-fundo-imobiliario-1.webp" alt="Projeto 2 - Investimento imobiliário">
+                <h3>Investimentos Imobiliários</h3>
+                <p>As melhores avaliações do mercado.</p>
             </div>
             <div class="projeto-card">
-                <img src="images (1).jpeg" alt="Projeto 3">
-                <h3>Projeto 3</h3>
-                <p>Design Escializados Para Você.</p>
+                <img src="images (1).jpeg" alt="Projeto 3 - Design personalizado">
+                <h3>Design Personalizado</h3>
+                <p>Projetos especializados para você.</p>
             </div>
         </div>
     </section>
@@ -59,13 +59,13 @@
     <!-- Contato Section -->
     <section id="contato" class="contato">
         <h2>Entre em Contato</h2>
-        <form id="contato-form">
+        <form id="contato-form" aria-label="Formulário de contato">
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+            <input type="text" id="nome" name="nome" required aria-required="true">
             <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required aria-required="true">
             <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
+            <textarea id="mensagem" name="mensagem" required aria-required="true"></textarea>
             <button type="submit">Enviar</button>
         </form>
         <p id="form-message"></p>
@@ -73,11 +73,11 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; Tenha o Melhor Atendimento e Proutos de Qualidade .</p>
+        <p>© 2025 Imobiliária Nakame - Tenha o Melhor Atendimento e Produtos de Qualidade</p>
         <div class="social-links">
-            <a href="#">LinkedIn</a>
-            <a href="#">GitHub</a>
-            <a href="#">Twitter</a>
+            <a href="#" aria-label="LinkedIn da Imobiliária Nakame">LinkedIn</a>
+            <a href="#" aria-label="GitHub da Imobiliária Nakame">GitHub</a>
+            <a href="#" aria-label="Twitter da Imobiliária Nakame">Twitter</a>
         </div>
     </footer>
 
